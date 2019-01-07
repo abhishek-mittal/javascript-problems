@@ -51,5 +51,4 @@ function init() {
     console.log(final)
 }
 
-
-init();
+module.exports = init;

@@ -1,0 +1,11 @@
+{
+    "presets": [
+        ["env", {
+        "targets": { "node": "6" }, // specify targets here
+      }],
+      "stage-0",
+        ["es2015", { "modules": "commonjs", "loose": true}],
+        "stage-0",
+    ],
+    "plugins": ["babel-plugin-syntax-jsx", ["babel-plugin-inferno", {"imports": true}], ]
+}
